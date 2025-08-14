@@ -38,8 +38,8 @@ Follow these steps to set up and run the project locally.
 1.  Clone the repository:
 
     ```bash
-    git clone <repository-url>
-    cd <project-directory>
+    git clone https://github.com/shubhamxpawar/backend_project_template
+    cd https://github.com/shubhamxpawar/backend_project_template
     ```
 
 2.  Install dependencies:
@@ -73,12 +73,17 @@ Follow these steps to set up and run the project locally.
 ```
 📂 project-root
 ├── src/
+│   ├── controllers/
 │   ├── db/
 │   │   └── database.js       # MongoDB connection logic
+│   ├── middlewares/
+│   ├── models/
+│   ├── routes/
 │   ├── utils/
 │   │   ├── api-error.js      # Custom API error class
 │   │   ├── api-response.js   # Reusable API response class
 │   │   └── constants.js      # Application-wide constants
+│   ├── validators/
 │   ├── app.js              # Express application configuration
 │   └── index.js            # Main entry point of the application
 ├── .env                    # Environment variables
@@ -107,4 +112,5 @@ This project is licensed under the MIT License.
 ## 📬 Contact
 
 If you have any questions or suggestions, feel free to contact me at <shubhamxpawar27@gmail.com>.
+
 
